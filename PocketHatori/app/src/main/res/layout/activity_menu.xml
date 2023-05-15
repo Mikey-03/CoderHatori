@@ -6,4 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".Menu">
 
+    <Button
+        android:id="@+id/calculator_button"
+        android:layout_width="206dp"
+        android:layout_height="146dp"
+        android:backgroundTint="@color/purple_200"
+        android:layout_marginTop="252dp"
+        android:layout_marginBottom="85dp"
+        android:text="Calculator"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/API_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.341"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/API_button"
+        android:layout_width="135dp"
+        android:layout_height="213dp"
+        android:backgroundTint="@color/teal_200"
+        android:layout_marginStart="190dp"
+        android:layout_marginEnd="86dp"
+        android:text="API"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calculator_button"
+        app:layout_constraintVertical_bias="0.703" />
 </androidx.constraintlayout.widget.ConstraintLayout>
