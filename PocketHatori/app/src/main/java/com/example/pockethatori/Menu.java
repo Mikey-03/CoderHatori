@@ -27,6 +27,9 @@ public class Menu extends AppCompatActivity {
             }
         });
     }
+    public void openNew(){
+
+    }
     public  void openNewActivity1(){
         Intent intent = new Intent(this,API.class );
         startActivity(intent);
