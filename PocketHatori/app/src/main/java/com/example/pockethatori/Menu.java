@@ -14,22 +14,10 @@ public class Menu extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
         button = (Button) findViewById(R.id.calculator_button);
         button1 = (Button) findViewById(R.id.API_button);
-        button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openNewActivity1();
-            }
-        });
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openNewActivity();
-            }
-        });
+        button1.setOnClickListener(v -> openNewActivity1());
+        button.setOnClickListener(v -> openNewActivity());
     }
-    public void openNew(){
 
-    }
     public  void openNewActivity1(){
         Intent intent = new Intent(this,API.class );
         startActivity(intent);
