@@ -1,13 +1,10 @@
 package com.example.pockethatori;
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
 import com.google.android.material.button.MaterialButton;
-
 import org.mozilla.javascript.Context;
 import org.mozilla.javascript.Scriptable;
 

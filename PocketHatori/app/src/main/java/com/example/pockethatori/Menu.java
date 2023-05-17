@@ -23,7 +23,7 @@ public class Menu extends AppCompatActivity {
         startActivity(intent);
     }
     public void openNewActivity(){
-        Intent intent = new Intent(this, Calculator.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 }
