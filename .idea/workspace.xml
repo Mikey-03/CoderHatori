@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="26a04148-a7fd-4eec-90f5-ce9cb5f2b9ce" name="Changes" comment="textView added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PocketHatori/app/src/main/res/layout/activity_calculator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PocketHatori/app/src/main/res/layout/activity_calculator.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true"
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/User/AndroidStudioProjects/CoderHatori/PocketHatori"
   }
 }]]></component>
   <component name="RunManager">
