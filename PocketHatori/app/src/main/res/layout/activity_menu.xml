@@ -139,7 +139,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/allerta_stencil"
         android:gravity="center_vertical"
-        android:text="CODER HATORI"
+        android:text="POCKET HATORI"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="41sp"
